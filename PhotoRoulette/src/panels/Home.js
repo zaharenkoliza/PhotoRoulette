@@ -23,6 +23,11 @@ export const Home = ({ id, fetchedUser }) => {
             Покажите Персика, пожалуйста!
           </Button>
         </Div>
+        <Div>
+          <Button stretched size="l" mode="secondary" onClick={() => routeNavigator.push('avatar')}>
+            Покажите Мне меня, пожалуйста!
+          </Button>
+        </Div>
       </Group>
     </Panel>
   );
